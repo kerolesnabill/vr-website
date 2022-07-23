@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
 import Experience from "./components/Experience";
+import Video from "./components/Video";
 
 function App() {
   const [navMobile, setNavMobile] = useState(false);
@@ -18,6 +19,7 @@ function App() {
         <NavMobile setNavMobile={setNavMobile} />
       </div>
       <Experience />
+      <Video />
     </div>
   );
 }
